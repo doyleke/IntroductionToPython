@@ -33,8 +33,10 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 
 terry = rg.SimpleTurtle('turtle')
+terry.pen_up()
 terry.left(180)
-terry.forward(200)
+terry.forward(50)
+terry.pen_down()
 terry.pen = rg.Pen('dark green',10)
 terry.right(90)
 terry.forward(100)
@@ -45,3 +47,63 @@ terry.backward(60)
 terry.right(120)
 terry.forward(60)
 
+laurel = rg.SimpleTurtle()
+laurel.speed = 20
+laurel.pen_up()
+laurel.left(180)
+laurel.forward(150)
+laurel.pen_down()
+
+
+for k in range(15):
+    laurel.pen = rg.Pen('red', 3)
+    laurel.draw_circle(5+k)
+    laurel.forward(6+k)
+
+karen = rg.SimpleTurtle()
+karen.speed = 20
+karen.pen_up()
+karen.left(140)
+karen.forward(150)
+karen.pen_down()
+
+
+for k in range(15):
+    karen.pen = rg.Pen('orange', 3)
+    karen.draw_circle(5+k)
+    karen.forward(6+k)
+
+steve = rg.SimpleTurtle()
+steve.speed = 20
+steve.pen_up()
+steve.left(90)
+steve.forward(150)
+steve.pen_down()
+
+for k in range(15):
+    steve.pen = rg.Pen('yellow', 3)
+    steve.draw_circle(5+k)
+    steve.forward(6+k)
+
+hugo = rg.SimpleTurtle()
+hugo.speed = 20
+hugo.pen_up()
+hugo.left(30)
+hugo.forward(150)
+hugo.pen_down()
+
+for k in range(15):
+    hugo.pen = rg.Pen('blue',3)
+    hugo.draw_circle(5+k)
+    hugo.forward(6+k)
+
+marvin = rg.SimpleTurtle()
+marvin.speed = 20
+marvin.pen_up()
+marvin.forward(150)
+marvin.pen_down()
+
+for k in range(15):
+    marvin.pen = rg.Pen('purple',3)
+    marvin.draw_circle(5+k)
+    marvin.forward(6+k)
