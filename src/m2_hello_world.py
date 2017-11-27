@@ -59,7 +59,7 @@ print('Hello, World')
 #   Look at the Console to be sure that your string printed as expected.
 #
 ########################################################################
-
+print("Hello again")
 ########################################################################
 #
 # TODO: 4.
@@ -73,7 +73,7 @@ print('Hello, World')
 #   (HINT: It is an INTERESTING number.)  Get help if your value is wrong.
 #
 ########################################################################
-
+print(2535 * 24953)
 ########################################################################
 #
 # TODO: 5.
