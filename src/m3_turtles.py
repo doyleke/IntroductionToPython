@@ -10,7 +10,7 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and Kayleigh Doyle.
+         their colleagues and Kayleigh E. Doyle.
 """
 ########################################################################
 #
