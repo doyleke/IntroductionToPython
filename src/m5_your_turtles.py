@@ -108,7 +108,7 @@ for k in range(15):
     marvin.draw_circle(5+k)
     marvin.forward(6+k)
 
-mildred = rg.SimpleTurtle()
+mildred = rg.SimpleTurtle() 
 mildred.speed = 20
 mildred.pen_up()
 mildred.left(180)
