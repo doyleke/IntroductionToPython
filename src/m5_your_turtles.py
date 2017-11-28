@@ -107,3 +107,18 @@ for k in range(15):
     marvin.pen = rg.Pen('purple',3)
     marvin.draw_circle(5+k)
     marvin.forward(6+k)
+
+mildred = rg.SimpleTurtle()
+mildred.speed = 20
+mildred.pen_up()
+mildred.left(180)
+mildred.forward(100)
+mildred.left(90)
+mildred.forward(40)
+mildred.left(90)
+mildred.pen_down()
+
+for k in range(30):
+    mildred.pen = rg.Pen('black',3)
+    mildred.draw_circle(5)
+    mildred.forward(8)
